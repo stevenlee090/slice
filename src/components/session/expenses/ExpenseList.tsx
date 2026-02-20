@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Expense, SessionContact } from '../../../types';
 import { ExpenseCard } from './ExpenseCard';
 import { EmptyState } from '../../common/EmptyState';

@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Transaction } from '../../../utils/settlement';
 import type { SessionContact } from '../../../types';
 import { formatCurrency } from '../../../utils/currency';

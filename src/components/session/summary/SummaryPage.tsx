@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useAppContext } from '../../../state/AppContext';
 import { useSettlement } from '../../../state/hooks/useSettlement';
 import { PageHeader } from '../../layout/PageHeader';

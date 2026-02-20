@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Session } from '../../../types';
 import { BreakdownExpenseRow } from './BreakdownExpenseRow';
 import { CategoryBreakdown } from '../CategoryBreakdown';

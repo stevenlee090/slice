@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import type { SessionContact, ParticipantId, SplitMode, ExpenseSplit } from '../../../types';
 import { CATEGORY_META, type ExpenseCategory } from '../../../utils/categories';
 import { Modal } from '../../common/Modal';

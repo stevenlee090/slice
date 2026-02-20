@@ -1,4 +1,3 @@
-import React from 'react';
 import type { SessionContact } from '../../../types';
 import type { Transaction, NetBalance } from '../../../utils/settlement';
 import { TransactionRow } from './TransactionRow';

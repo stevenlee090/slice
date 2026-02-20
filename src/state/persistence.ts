@@ -1,4 +1,5 @@
 import type { PersistedState } from '../types';
+import type { ExpenseCategory } from '../utils/categories';
 import { debounce } from '../utils/debounce';
 
 const STORAGE_KEY = 'BILL_SPLITTER_STATE';
@@ -18,7 +19,10 @@ function migrateState(raw: unknown): PersistedState {
   // Backfill category: 'other' on existing expenses that lack it
   state.sessions = state.sessions.map((s) => ({
     ...s,
-    expenses: s.expenses.map((e) => ({ category: 'other' as const, ...e })),
+    expenses: s.expenses.map((e) => ({
+      ...e,
+      category: ((e.category as string | undefined) ?? 'other') as ExpenseCategory,
+    })),
   }));
   return state;
 }

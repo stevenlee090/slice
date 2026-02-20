@@ -1,4 +1,3 @@
-import React from 'react';
 import type { SessionContact, ParticipantId } from '../../../types';
 import { formatCurrency } from '../../../utils/currency';
 import { computeEqualSplits } from '../../../utils/splits';

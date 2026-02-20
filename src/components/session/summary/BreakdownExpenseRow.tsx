@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Expense, SessionContact } from '../../../types';
 import { Badge } from '../../common/Badge';
 import { formatCurrency } from '../../../utils/currency';
