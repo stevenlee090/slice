@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Expense, SessionContact } from '../../../types';
 import { CATEGORY_META } from '../../../utils/categories';
 import { Button } from '../../common/Button';

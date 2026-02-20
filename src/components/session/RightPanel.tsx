@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAppContext } from '../../state/AppContext';
 import { useSettlement } from '../../state/hooks/useSettlement';
 import { CategoryBreakdown } from './CategoryBreakdown';

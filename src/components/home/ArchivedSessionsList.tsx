@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Session } from '../../types';
 import { useAppContext } from '../../state/AppContext';
 import { Badge } from '../common/Badge';

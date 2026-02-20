@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavBar } from './NavBar';
 import { SideNav } from './SideNav';
 import { RightPanel } from '../session/RightPanel';

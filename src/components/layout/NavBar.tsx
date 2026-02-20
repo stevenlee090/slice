@@ -1,8 +1,8 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 import { useAppContext } from '../../state/AppContext';
 import type { NavTab } from '../../types';
 
-const tabs: { id: NavTab; label: string; icon: React.ReactNode }[] = [
+const tabs: { id: NavTab; label: string; icon: ReactNode }[] = [
   {
     id: 'home',
     label: 'Home',
@@ -37,7 +37,6 @@ export function NavBar() {
             <button
               key={tab.id}
               onClick={() => {
-                let view: Parameters<typeof dispatch>[0] | undefined;
                 if (tab.id === 'home') {
                   // If there's an active session, go to session view
                   const viewPayload = state.activeSessionId

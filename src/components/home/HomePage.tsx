@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useAppContext } from '../../state/AppContext';
 import { useActiveSession } from '../../state/hooks/useActiveSession';
 import { useSettlement } from '../../state/hooks/useSettlement';

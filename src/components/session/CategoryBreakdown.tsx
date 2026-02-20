@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Expense } from '../../types';
 import type { ExpenseCategory } from '../../utils/categories';
 import { CATEGORY_META } from '../../utils/categories';
