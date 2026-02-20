@@ -43,9 +43,20 @@ export function SettingsPage() {
 
         <section className="bg-white rounded-xl border border-gray-200 p-4">
           <h2 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3">About</h2>
-          <div className="text-sm text-gray-600 space-y-1">
-            <p>Slice — local-first, no account needed.</p>
+          <div className="text-sm text-gray-600 space-y-2">
+            <p>Slice — local-first bill splitting, no account needed.</p>
             <p className="text-xs text-gray-400">All data stored in your browser's localStorage.</p>
+            <p className="text-xs text-gray-400">
+              Fully open source —{' '}
+              <a
+                href="https://github.com/stevenlee090/slice"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-500 hover:text-indigo-700 underline"
+              >
+                github.com/stevenlee090/slice
+              </a>
+            </p>
           </div>
         </section>
       </div>
